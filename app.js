@@ -21,7 +21,7 @@ app.use(cors());
 
 app.use(
   session({
-    name: "proyectoFinalSession",
+    name: "desafio19",
     secret: config.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
